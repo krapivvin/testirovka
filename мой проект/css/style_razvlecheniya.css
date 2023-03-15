@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Начальное фото  */
+
+.blocks{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.photka{
+    background-image: url(../img/card_funny/закреп/1.png);
+    width: 1270px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photka p{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/* Фото-карточки  */
+
+#b1{
+    background-image: url(../img/card_funny/еще/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b2{
+    background-image: url(../img/card_funny/еще/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b3{
+    background-image: url(../img/card_funny/еще/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b4{
+    background-image: url(../img/card_funny/еще/4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b5{
+    background-image: url(../img/card_funny/еще/5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b6{
+    background-image: url(../img/card_funny/еще/6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b7{
+    background-image: url(../img/card_funny/еще/7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b8{
+    background-image: url(../img/card_funny/еще/8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b9{
+    background-image: url(../img/card_funny/еще/9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b10{
+    background-image: url(../img/card_funny/еще/10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b11{
+    background-image: url(../img/card_funny/еще/11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#b12{
+    background-image: url(../img/card_funny/еще/12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Текст после карточек */
+.text-end{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.541);
+    display: flex;
+    justify-content: center;
+}
+
+.text-end p{
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 20px;
+    width: 900px;
+    height: 120px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}

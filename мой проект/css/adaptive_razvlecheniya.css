@@ -1,0 +1,185 @@
+/* Начальное фото */
+@media (max-width: 900px){
+    .photka p{
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 665px){
+    .photka p{
+        font-weight: 600;
+        font-size: 27px;
+    }
+} 
+
+@media (max-width: 580px){
+    .photka p{
+        font-weight: 600;
+        font-size: 25px;
+    }
+} 
+/* Панелька */
+
+@media (max-width: 1340px){
+    .panelka-1{
+        margin-top: 60px;
+        height: 85px;
+    } 
+}
+
+@media (max-width: 1025px){
+    .panelka-1{
+        margin-top: 50px;
+        height: 75px;
+    } 
+}
+
+@media (max-width: 900px){
+    .panelka-1{
+        margin-top: 45px;
+        height: 70px;
+    } 
+}
+
+@media (max-width: 768px){
+    .panelka-1{
+        margin-top: 45px;
+        height: 55px;
+    } 
+}
+
+@media (max-width: 480px){
+    .panelka-1{
+        margin-top: 35px;
+        height: 40px;
+    } 
+}
+
+@media (max-width: 320px){
+    .panelka-1{
+        margin-top: 25px;
+        height: 35px;
+    } 
+}
+/* Текст панельки */
+
+@media (max-width: 1250px){ 
+    .panelka-1 p{
+        font-weight: 600;
+        font-size: 36px;
+    }  
+}
+
+@media (max-width: 1025px){ 
+    .panelka-1 p{
+        font-weight: 600;
+        font-size: 32px;
+    }  
+}
+
+@media (max-width: 900px){ 
+    .panelka-1 p{
+        font-weight: 600;
+        font-size: 30px;
+    }  
+}
+
+@media (max-width: 768px){ 
+    .panelka-1 p{
+        font-weight: 600;
+        font-size: 27px;
+    }  
+}
+
+@media (max-width: 500px){ 
+    .panelka-1 p{
+        font-weight: 600;
+        font-size: 24px;
+    }  
+}
+
+@media (max-width: 320px){ 
+    .panelka-1 p{
+        font-weight: 600;
+        font-size: 14px;
+    }  
+}
+
+/* Карточки товаров */
+@media (max-width: 1100px){ 
+    .card{
+        width: 490px;
+        height: 626px;
+    }
+}
+
+@media (max-width: 1000px){ 
+    .card{
+        width: 460px;
+        height: 606px;
+    }
+}
+
+@media (max-width: 960px){ 
+    .card{
+        width: 410px;
+        height: 580px;
+    }
+}
+
+@media (max-width: 768px){ 
+    .card{
+        width: 350px;
+        height: 560px;
+    }
+}
+
+@media (max-width: 740px){ 
+    .card{
+        margin: 10px;
+        width: 370px;
+        height: 530px;
+    }
+}
+
+@media (max-width: 320px){ 
+    .card{
+        margin: 5px;
+        width: 350px;
+        height: 480px;
+    }
+}
+
+/* Текст после карточек */
+@media (max-width: 900px){ 
+    .text-end{
+        width: 100%;
+        height: 200px;
+    }
+
+    .text-end p{
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 520px){ 
+    .text-end{
+        height: 230px;
+    }
+
+    .text-end p{
+        font-family: 'Exo 2', sans-serif;
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        font-weight: 600;
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 350px){ 
+    .text-end{
+        height: 270px;
+    }
+}

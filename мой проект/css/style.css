@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap');
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    background: url(../img/fon/фон.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+/* Стилизация текста */
+h1, h2, h3, h4, h5, p, a{
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+/* Отмена стилизации ссылок */
+a{
+    text-decoration: none;
+}
+
+/* Изменение цвета при наведении */
+a:hover{
+    color: rgb(74, 100, 71);
+}
+
+/* Меню */
+
+a.nav-link{
+    padding: 10px;
+    margin: 0px;
+}
+
+.navbar{
+    padding-top: 0;
+}
+
+.container-fluid{
+    background: rgba(209, 208, 194, 0.747);
+    width: 100%;
+}
+
+.menubar{
+    display: flex;
+    align-items: center;
+    height: 33px;
+    margin-left: 57px;
+}
+
+.menubar a{
+    font-weight: 600;
+    font-size: 27px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.menubar img{
+    width: 33px;
+    height: 33px;
+}
+
+/* Кнопочки Меню */
+.navbar-light .navbar-nav .nav-link{
+    padding: 20px;
+    color: black;
+}
+
+.collapse ul a{
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;  
+    font-family: 'Exo 2', sans-serif; 
+}
+
+ /* Слайдер */
+.carousel-inner{
+    margin-top: 50px;
+}
+
+.carousel-item img{
+    height:530px;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-inner h5{
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    color: #EBEBEB;
+}
+
+.carousel-inner h4{
+    display: flex;
+    margin-bottom: 70px;
+    font-weight: 600;
+    font-size: 35px;
+    color: rgba(248, 247, 247, 0.774);
+
+}
+/* Панелька */
+.panelka-1{
+	margin-top: 72px;
+	background:rgba(191, 188, 160, 0.5);
+    width: 100%;
+    height: 90px;
+    display:flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.panelka-1 p{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Карточки товара */
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card{
+    padding-top: 10px; 
+    display: flex;
+    align-items: center;
+    width: 524px;
+    height: 626px;
+    background: #BFBCA0;
+    border-radius: 30px;
+}
+/* Фото карточек */
+.card-img-1{
+    background-image: url(../img/card_villa/рек/villa1.jpg);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+.card-img-2{
+    margin-top: 10px;
+    background-image: url(../img/card_villa/рек/villa2.jpg);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+}
+/* Текст карточек */
+
+.card-zag{
+    margin: 5px 0 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-ramka{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 335px;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Ценник карточки */
+
+.card-much{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Кнопка брони */
+
+.card-but p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.card-but button{
+    background-color: #5d684fe8;
+    border-radius: 30px;
+    width: 240px;
+    height: 48px;
+}
+
+.card-but p:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* Карточки развлечений */
+
+.photo h2{
+    width:100%;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.photo p{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.photo{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.tops{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+
+}
+
+#a1{
+    background-image: url(../img/card_funny/exxurs/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#a2{
+    background-image: url(../img/card_funny/exxurs/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#a3{
+    background-image: url(../img/card_funny/exxurs/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#a4{
+    background-image: url(../img/card_funny/exxurs/4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#a5{
+    background-image: url(../img/card_funny/exxurs/5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#a6{
+    background-image: url(../img/card_funny/exxurs/6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Блок с текстом */
+
+/* Фон блока */
+.block-1{
+    background-image: url(../img/dop/фон1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+}
+
+.block-2{
+    background-image: url(../img/dop/фон2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+}
+/* Выравнивание */
+.around-1, .around-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Текст блока */
+.block-1 p, .block-2 p{
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 10px;
+    width: 570px;
+    height: 438px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+/* Фото блока */
+.block-photo-1{
+    background-image: url(../img/dop/1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 676px;
+    height: 520px;
+}
+
+.block-photo-2{
+    background-image: url(../img/dop/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 676px;
+    height: 520px;
+}
+
+
+/* Заголовок блока */
+.block-1 h3, .block-2 h3 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Партнеры */
+
+.partners{
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 126px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+/* Логотипы */
+.avia{
+    width: 179px;
+    height: 37px;
+}
+.aero{
+    width: 200px;
+    height: 40px;
+}
+.sber{
+    width: 174px;
+    height: 28px;
+}
+.tink{
+    width: 110px;
+    height: 65px;
+}
+.paypal{
+    width: 149px;
+    height: 40px;
+}
+
+/* Футер */
+
+.footers{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 246px;
+    background: rgba(152, 151, 142, 0.8);
+}
+/* Лого */
+.logofooter{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logofooter img{
+    margin-right: 5px;
+    width: 33px;
+    height: 33px;
+}
+
+.logofooter h3{
+    font-weight: 700;
+    font-size: 27px;
+}
+/* ссылки на меню */
+
+.centers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stroka{
+    display: flex;
+    justify-content: space-around;
+    width: 529px;
+    height: 26px;
+    /* margin-top: 20px; */
+}
+
+.stroka a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.stroka li{
+    list-style-type: none;
+}
+/* ссылки на соц сети */
+
+.rabota{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.pods{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logs{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 35px;
+}
+
+.logs img{
+    width: 53px;
+    height: 38px;
+}
+
+/* Копирайтинг */
+
+.copyrayt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 500;
+    font-size: 16px;
+}

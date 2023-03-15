@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Блок с фото */
+.blocks{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.photka{
+    background-image: url(../img/card_villa/глав/1.png);
+    width: 1270px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photka p{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/* Карточки товара */
+
+.card-img-3{
+    background-image: url(../img/card_villa/просто/1.png);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+.card-img-4{
+    background-image: url(../img/card_villa/просто/2.png);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+.card-img-5{
+    background-image: url(../img/card_villa/просто/3.png);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+.card-img-6{
+    background-image: url(../img/card_villa/просто/4.png);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+.card-img-7{
+    background-image: url(../img/card_villa/просто/5.png);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+.card-img-8{
+    background-image: url(../img/card_villa/просто/6.png);
+    border-radius: 30px;
+    width: 474px;
+    height: 265px;
+    margin-top: 10px;
+}
+
+/* Текст после карточек */
+.text-end{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.541);
+    display: flex;
+    justify-content: center;
+}
+
+.text-end p{
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 20px;
+    width: 900px;
+    height: 120px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
